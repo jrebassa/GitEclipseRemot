@@ -12,7 +12,7 @@ public class Main {
 		double saldoActual;
 		double saldoFinal;
 		saldoActual = cuenta1.estado();
-        System.out.println("El saldo actual es"+ saldoActual );
+        System.out.println("El saldo actual es "+ saldoActual );
 
         try {
             cuenta1.retirar(2300);
