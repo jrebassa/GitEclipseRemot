@@ -10,6 +10,7 @@ public class Main {
 
 	private static void operativa_cuenta(CCuenta cuenta1, float cantidad) {
 		double saldoActual;
+		double saldoFinal;
 		saldoActual = cuenta1.estado();
         System.out.println("El saldo actual es"+ saldoActual );
 
@@ -24,5 +25,7 @@ public class Main {
         } catch (Exception e) {
             System.out.print("Fallo al ingresar");
         }
+        saldoFinal = cuenta1.estado();
+        System.out.println("El saldo actual es"+ saldoFinal );
 	}
 }
