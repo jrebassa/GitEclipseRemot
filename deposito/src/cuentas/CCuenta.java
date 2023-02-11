@@ -40,7 +40,8 @@ public class CCuenta {
     }
 
     /**
-     * @return Retorna el valor del saldo del compte
+     * Mètode getter per obtenir l'estat del compte
+     * @return retorna el valor del saldo del compte
      */
     public double estado()
     {
@@ -48,6 +49,7 @@ public class CCuenta {
     }
 
     /**
+     * Mètode setter per modificar el saldo sumant sa quantitat indicada
      * @param cantidad Quantitat a ingresar en el compte
      * @throws Exception El mètode llança una excepció si sa quantitat és menor de 0
      */
@@ -59,6 +61,7 @@ public class CCuenta {
     }
 
     /**
+     * Mètode setter per modificar el saldo restant sa quantitat indicada
      * @param cantidad Quantitat a retirar del compte
      * @throws Exception El mètode llança una excepció si sa quantitat és menor o igual a 0
      */
@@ -72,6 +75,7 @@ public class CCuenta {
     }
 
 	/**
+	 * Mètode getter
 	 * @return Retorna el nom del titular
 	 */
 	public String getNombre() {
@@ -79,6 +83,7 @@ public class CCuenta {
 	}
 
 	/**
+	 * Mètode setter
 	 * @param nombre Modifica el nom del titular
 	 */
 	public void setNombre(String nombre) {
@@ -86,6 +91,7 @@ public class CCuenta {
 	}
 
 	/**
+	 * Mètode getter
 	 * @return Retorna el número de compte
 	 */
 	public String getCuenta() {
@@ -93,6 +99,7 @@ public class CCuenta {
 	}
 
 	/**
+	 * Mètode setter
 	 * @param cuenta Modifica el número de compte
 	 */
 	public void setCuenta(String cuenta) {
@@ -100,6 +107,7 @@ public class CCuenta {
 	}
 
 	/**
+	 * Mètode getter
 	 * @return Retorna el saldo
 	 */
 	public double getSaldo() {
@@ -107,6 +115,7 @@ public class CCuenta {
 	}
 
 	/**
+	 * Mètode setter
 	 * @param saldo Modifica el saldo
 	 */
 	public void setSaldo(double saldo) {
@@ -114,6 +123,7 @@ public class CCuenta {
 	}
 
 	/**
+	 * Mètode getter
 	 * @return Retorna el tipus d'interés
 	 */
 	public double getTipoInterés() {
@@ -121,6 +131,7 @@ public class CCuenta {
 	}
 
 	/**
+	 * Mètode setter
 	 * @param tipoInterés Modifica el tipus d'interés
 	 */
 	public void setTipoInterés(double tipoInterés) {
